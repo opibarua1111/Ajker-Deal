@@ -21,11 +21,11 @@ const showProducts = (products) => {
                            <h3 style="font-size: 18px;" class="card-title">${product.title}</h3>
                         </div>
                         <p class="card-text" style="font-size: 18px;">Category: ${product.category}</p>
-                        <p class="card-text" style="font-size: 16px;">customers: ${product.rating.count} | Average rating : ${product.rating.rate} </p>
-                         
+                        <p class="card-text" style="font-size: 16px; margin-bottom: 1px;">Total Reviews: ${product.rating.count} <i style="color: #444" class="fas fa-user"></i> </p>
+                        <p class="card-text" style="font-size: 16px; margin-bottom: 1px;">Average rating : ${product.rating.rate} <i style="color:#FBAA33" class="fas fa-star-half-alt"></i></p>
                         <h2 style="color: #484848;">Price: $ ${product.price}</h2>
                         <button style="background-color: #FBAA33;border: none;" onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart <i class="fas fa-shopping-cart"></i></button>
-                       <button style="background-color: crimson;border: none;" id="details-btn" class="btn btn-danger">Details</button>
+                       <button style="background-color: crimson;border: none;" id="details-btn" class="btn btn-danger">Details <i class="fas fa-info-circle"></i></button>
                    </div>
                 </div>
               </div>
