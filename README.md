@@ -1,3 +1,4 @@
 # Make an Ajker Deal
 
-Shop Product [Create team](https://frosty-varahamihira-efb7eb.netlify.app/).
+Shop Product [shop Now](https://frosty-varahamihira-efb7eb.netlify.app/).
+Live-site:- https://frosty-varahamihira-efb7eb.netlify.app/
