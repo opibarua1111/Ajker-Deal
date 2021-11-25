@@ -51,6 +51,7 @@ body {
 .product-image {
   width: 150px;
   height: 150px;
+  mix-blend-mode: multiply;
 }
 .cart {
   width: 350px;
